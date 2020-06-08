@@ -24,7 +24,7 @@
 pip install -r requirements.txt
 ```
 
-### 使用步骤：
+### 使用方式（源码）：
 
 1、将电子发票pdf文件放到"inputs"文件夹；
 
@@ -33,6 +33,19 @@ pip install -r requirements.txt
 ```shell
 python .\invoice_converter.py
 ```
+
+### **使用方式（二进制）**：
+
+1、Windows
+
+- 下载bin/invoice_converter_win10.7z并解压
+- 将电子发票pdf文件放到解压后的"inputs"文件夹；
+- 点击invoice_converter.exe
+- 查看output文件夹
+
+2、MAC（待支持）
+
+3、LINUX（待支持）
 
 ### 实现思路：
 
